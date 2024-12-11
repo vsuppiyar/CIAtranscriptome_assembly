@@ -3,4 +3,4 @@ channels:
   - bioconda
 dependencies:
   - star=2.7.10a
-  - snakemake
+  - snakemake=7.32.4
