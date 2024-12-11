@@ -3,7 +3,7 @@ ZENODO_URL=https://zenodo.org/record/7438383/files/test.tar.gz
 DM6_GENOME_URL=ftp://ftp.ensembl.org/pub/release-79/fasta/drosophila_melanogaster/dna/Drosophila_melanogaster.BDGP6.dna_sm.toplevel.fa.gz
 DM6_GTF_URL=ftp://ftp.ensembl.org/pub/release-96/gtf/drosophila_melanogaster/Drosophila_melanogaster.BDGP6.22.96.gtf.gz
 CONDA_ENV=snakemake-cia
-CONDA_PACKAGES=snakemake ucsc-twobitinfo ucsc-fatotwobit
+CONDA_PACKAGES=snakemake=7.32.4 ucsc-twobitinfo ucsc-fatotwobit
 
 # Need to specify bash in order for conda activate to work.
 SHELL=/bin/bash
