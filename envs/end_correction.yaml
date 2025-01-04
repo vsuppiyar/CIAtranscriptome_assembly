@@ -18,3 +18,4 @@ dependencies:
   - r-rcolorbrewer
   - r-data.table
   - r-upsetr
+  - openssl
